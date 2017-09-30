@@ -2,11 +2,16 @@
 <html>
   <head>
     <script src="cam.js" />
+    <script src='https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js'></script>
   </head>
   <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server"> 
       <input type="file" id="imgInp" accept="image/*" capture="camera">
       <img id="blah" src="#" alt="Your Image" />
+      
     </form>
+    <script>
+      Tesseract.recognize(blah).then(function(result){console.log(result)})
+    </script>
   </body>
 </html>
