@@ -15,3 +15,8 @@ h1 {
 #ending {
   font-size: 44px;
 }
+
+.btn {
+  width: 100px;
+  height: 100px;
+}
