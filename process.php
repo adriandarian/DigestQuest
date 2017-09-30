@@ -9,7 +9,7 @@
     header("Location: index.html?id")
   }
 
-  $_SESSION["email"] = $email;
+  $_SESSION["name"] = $name;
 
   header('Location: ./page-2.html')
  ?>
