@@ -1,0 +1,8 @@
+@font-face {
+    font-family:"AgencyFBRegular";
+    src: url("agencyr.eot") /* EOT file for IE */
+}
+@font-face {
+    font-family:"AgencyFBRegular";
+    src: url("agencyr.ttf") /* TTF file for CSS3 browsers */
+}
