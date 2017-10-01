@@ -15,3 +15,8 @@ label.cameraButton:active {
 label.cameraButton input[accept*="camera"] {
   display: none;
 }
+
+#image {
+  background-image: url("C:\Users\Adrian\Documents\DigestQuest\axure\resources\resources\images\3rd page.PNG");
+  margin: 20% 20%;
+}

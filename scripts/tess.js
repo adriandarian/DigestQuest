@@ -197,5 +197,5 @@ let wordsLength = 0;
             }
       }
   }
-  alert("hello");
+  window.location.href="./page-3.html";
 }

@@ -6,7 +6,7 @@
   ########################
 
   if ($name == $name) {
-    header("Location: index.html?id")
+    header("Location: ./page-2.html")
   }
 
   $_SESSION["name"] = $name;
