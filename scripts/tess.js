@@ -20,7 +20,7 @@ var observer = new MutationObserver(function(mutations) {
 
 var conf = {attributes: true, childList: true, characterData: true };
 
-observer.observe(tag,conf);
+observer.observe(Node(tag),conf);
 
 
 
