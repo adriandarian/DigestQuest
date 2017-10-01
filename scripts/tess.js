@@ -1,6 +1,32 @@
 var base_image = document.getElementById("image");
 var result;
 
+let newImage = () => {
+  newImage = document.getElementById('image');
+  return newImage;
+}
+
+function changeListener () {
+  base_image = newImage();
+}
+
+var tag = document.getElementById('image');
+
+var observer = new MutationObserver(function(mutations) {
+  mutations.forEach(function(mutation) {
+    console.log(mutation.type);
+  });
+});
+
+var conf = {attributes: true, childList: true, characterData: true };
+
+observer.observe(tag,conf);
+
+
+
+
+observer.disconnect();
+
 Tesseract.recognize(base_image).then(function(result) {
   console.log(result)
 })
