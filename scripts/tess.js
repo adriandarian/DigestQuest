@@ -191,4 +191,3 @@ for(var i = 0;i<wordsLength;i++)//test each word
           }
     }
 }
-}
