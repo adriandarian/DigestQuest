@@ -43,10 +43,9 @@ $(document).ready(function () {
   });
 });
 
-/*var Tesseract = require('tesseract.js')
 Tesseract.recognize(blah).then(function(result){
 var elem = document.createElement("p")
 var text = document.createTextNode(result);
 elem.appendChild(text);
 document.getElementById("display").appendChild(node);
-})*/
+})
