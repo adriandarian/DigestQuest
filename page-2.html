@@ -4,12 +4,14 @@
     <link href="styles/page-2.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
     <script src="https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js" type="text/javascript"></script>
-    <script src="scripts/tess.js" type="text/javascript"></script>
+
+
   </head>
   <body id="el">
     <label class="cameraButton">Take a picture
-      <input id="image" type="image" accept="image/*;capture=camera">
+      <input id="image" type="file" accept="image/*;capture=camera">
     </label>
     <div id="display"></div>
+<script src="scripts/tess.js" type="text/javascript"></script>
   </body>
 </html>
